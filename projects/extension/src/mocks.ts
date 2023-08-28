@@ -2,7 +2,7 @@ import {
   ToApplication,
   ToExtension,
 } from "@substrate/connect-extension-protocol"
-import { AddChainOptions, Chain, Client } from "smoldot"
+import { AddChainOptions, Chain, Client } from "@ideallabs/smoldot"
 
 const noop: any = Function.prototype
 

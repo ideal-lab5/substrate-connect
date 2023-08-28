@@ -77,7 +77,7 @@
     "url-loader": "^4.1.1"
   },
   "resolutions": {
-    "@substrate/connect": "0.7.31"
+    "@substrate/connect": "0.7.4"
   },
   "packageManager": "yarn@3.2.0"
 }

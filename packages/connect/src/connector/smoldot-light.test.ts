@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { beforeEach, beforeAll, it, describe, expect, vi } from "vitest"
-import type { AddChainOptions, ClientOptions } from "smoldot"
+import type { AddChainOptions, ClientOptions } from "@ideallabs/smoldot"
 import { WellKnownChain } from "../WellKnownChain"
 
 class SdAlreadyDestroyedError extends Error {

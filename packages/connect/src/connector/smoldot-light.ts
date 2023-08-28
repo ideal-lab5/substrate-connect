@@ -4,7 +4,7 @@ import {
   ClientOptions,
   MalformedJsonRpcError,
   QueueFullError,
-} from "smoldot"
+} from "@ideallabs/smoldot"
 import { getSpec } from "./specs/index.js"
 import {
   AddChain,
@@ -20,7 +20,7 @@ import { WellKnownChain } from "../WellKnownChain.js"
 let startPromise: Promise<(options: ClientOptions) => Client> | null = null
 const getStart = () => {
   if (startPromise) return startPromise
-  startPromise = import("smoldot").then((sm) => sm.start)
+  startPromise = import("@ideallabs/smoldot").then((sm) => sm.start)
   return startPromise
 }
 
